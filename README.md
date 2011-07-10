@@ -3,11 +3,11 @@
 A Chrome Extension to replace extra information on social networking
 sites with placeholders.
 
-# Building
+Currently replaces twitter images with a solid black image.
 
-Requires [node.js](http://nodejs.org/) and 
-[CoffeeScript](http://jashkenas.github.com/coffee-script/). To build,
-run `cake build`.
+# TODO
+
+* fix incorrect image size when viewing a user profile in the left pane
 
 # License
 

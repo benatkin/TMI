@@ -1,0 +1,15 @@
+{
+  "name": "TMI",
+  "version": "0.0.1",
+  "description": "Hides some information besides the content of the posts from social sites. Currently just replaces all avatars on twitter with a black image.",
+  "content_scripts": [
+    {
+      "matches": ["*://twitter.com/*"],
+      "css": ["replace_images.css"]
+    }
+  ],
+  "icons": {
+    "48":  "icon48.png",
+    "128": "icon128.png"
+  }
+}
